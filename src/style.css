@@ -1,1 +1,15 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-main-color: #ff7f5c;
+  --color-secondary-color: #f4dbd4;
+  --color--section-color: #f9f5f3;
+}
+
+@layer components {
+  .center-elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
