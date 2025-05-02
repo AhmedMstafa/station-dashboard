@@ -1,0 +1,14 @@
+[
+  { "taste": "24:00", "chardonay": 90, "carmenere": 60 },
+  { "taste": "02:00", "chardonay": 80, "carmenere": 85 },
+  { "taste": "04:00", "chardonay": 65, "carmenere": 60 },
+  { "taste": "06:00", "chardonay": 40, "carmenere": 55 },
+  { "taste": "08:00", "chardonay": 30, "carmenere": 35 },
+  { "taste": "10:00", "chardonay": 45, "carmenere": 25 },
+  { "taste": "12:00", "chardonay": 85, "carmenere": 65 },
+  { "taste": "14:00", "chardonay": 75, "carmenere": 90 },
+  { "taste": "16:00", "chardonay": 60, "carmenere": 70 },
+  { "taste": "18:00", "chardonay": 40, "carmenere": 45 },
+  { "taste": "20:00", "chardonay": 30, "carmenere": 50 },
+  { "taste": "22:00", "chardonay": 50, "carmenere": 40 }
+]
