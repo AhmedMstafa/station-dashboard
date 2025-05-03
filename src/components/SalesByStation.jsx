@@ -6,7 +6,7 @@ function StationSales({ isActive = true, title, subTitle, percentage }) {
       <div className="flex items-center gap-2.5">
         <img src={gasStation} className="grow-0" />
         <p>{title}</p>
-        <p>{subTitle}</p>
+        <p className={`${isActive ? '' : 'text-[#B9CDE2]'}`}>{subTitle}</p>
       </div>
       {isActive ? (
         <span className="relative w-[257px] h-[6px] rounded-md bg-secondary-color">

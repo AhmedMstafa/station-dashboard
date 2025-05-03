@@ -5,7 +5,7 @@
   --color-secondary-color: #f4dbd4;
   --color-section-color: #f9f5f3;
   --color-text-color: #3d5161;
-  --color-special-green: #00CBC0;
+  --color-special-green: #00cbc0;
 }
 
 @layer components {
@@ -14,4 +14,26 @@
     align-items: center;
     justify-content: center;
   }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ff7f5c;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff7f5c;
 }

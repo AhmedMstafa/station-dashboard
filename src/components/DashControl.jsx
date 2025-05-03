@@ -8,7 +8,7 @@ function CustomButton({ title, icon, active, path }) {
   return (
     <button
       onClick={() => navigate(path)}
-      className={`flex items-center justify-center gap-2.5 w-[147px] rounded-[30px] transition
+      className={`flex items-center justify-center gap-2.5 w-[147px] rounded-[30px] transition font-semibold cursor-pointer
       ${
         active
           ? 'bg-main-color text-white'
