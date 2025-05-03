@@ -1,6 +1,6 @@
 import gasStation from '../../public/gas-station-svgrepo-com.svg';
 
-function StationSales({ isActive = true, title, subTitle, percentage }) {
+function StationSales({ isActive = true, title, subTitle }) {
   return (
     <div className="flex flex-col gap-2.5">
       <div className="flex items-center gap-2.5">
@@ -11,7 +11,7 @@ function StationSales({ isActive = true, title, subTitle, percentage }) {
       {isActive ? (
         <span className="relative w-[257px] h-[6px] rounded-md bg-secondary-color">
           <span
-            className={`absolute left-0 rounded-md bg-main-color h-full w-[${percentage}%]`}
+            className={`absolute left-0 rounded-md bg-main-color h-full w-[50%]`}
           ></span>
         </span>
       ) : (
@@ -44,12 +44,7 @@ export default function SalesByStation() {
           }
           percentage={50}
         />
-        <StationSales
-          isActive={false}
-          title="Station Name"
-          subTitle="NM"
-          percentage={50}
-        />
+        <StationSales isActive={false} title="Station Name" subTitle="NM" />
       </div>
     </section>
   );
