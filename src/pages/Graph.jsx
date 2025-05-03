@@ -1,3 +1,9 @@
+import StationOverview from '../components/StationsOverview';
+
 export default function Graph() {
-  return <h1>Graph</h1>;
+  return (
+    <section>
+      <StationOverview />
+    </section>
+  );
 }

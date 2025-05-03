@@ -24,6 +24,5 @@ const MyResponsiveRadar = ({ data }) => (
 );
 
 export default function Radar() {
-  console.log(data);
-  return <MyResponsiveRadar data={data} />;
+  return <MyResponsiveRadar data={data[0].radar} />;
 }
