@@ -37,7 +37,7 @@ const links = [
 
 export default function SideBar() {
   return (
-    <nav className="h-full bg-main-color w-[115px] rounded-br-[30px] rounded-tr-[30px]">
+    <nav className="h-screen bg-main-color w-[115px] rounded-br-[30px] rounded-tr-[30px]">
       <ul className="h-full flex flex-col justify-center items-center gap-[30px]">
         {links.map((link, index) => {
           let liClasses = !index
